@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071529">
+  <meta name="description" content="Portfolio professionnel de Mouadh Jemai : soutien informatique, systèmes industriels, expérience, formations, rapports et CV.">
+  <title>Mouadh Jemai | Portfolio professionnel</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="data/portfolio.js" defer></script>
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="site-header" id="haut">
+    <div class="shell nav-wrap">
+      <a class="identity" href="#haut" aria-label="Accueil Mouadh Jemai"><span class="identity-mark">MJ<span>.</span></span><span class="identity-name">MOUADH <strong>JEMAI</strong></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Afficher la navigation"><span></span><span></span><span></span></button>
+      <nav class="nav" id="primary-nav" aria-label="Navigation principale">
+        <a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#parcours">Parcours</a><a href="#projets">Projets</a><a href="#rapports">Rapports</a><a class="nav-cta" href="#contact">Me contacter <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="availability"><span class="pulse" aria-hidden="true"></span><span>PORTFOLIO PROFESSIONNEL · MONTRÉAL</span></div>
+        <p class="kicker">Bonjour, je suis <span id="hero-name">Mouadh Jemai.</span></p>
+        <h1 id="hero-title">Des solutions techniques fiables, <em>de l'industrie à l'informatique.</em></h1>
+        <p class="hero-description" id="hero-intro">Technicien supérieur méthodes et étudiant en soutien informatique à Montréal.</p>
+        <div class="hero-actions"><a class="btn btn-main" id="cv-hero" href="documents/CV_Mouadh_Jemai.pdf" target="_blank" rel="noopener"> <span aria-hidden="true">↓</span> Voir mon CV (PDF)</a><a class="btn btn-ghost" id="linkedin-hero" href="https://ca.linkedin.com/in/jemai-mouadh" target="_blank" rel="noopener noreferrer">Mon LinkedIn <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-meta"><span><i aria-hidden="true">◉</i> <span id="hero-location">Montréal, Québec</span></span><span><i aria-hidden="true">✦</i> <span id="hero-role">Soutien informatique & systèmes industriels</span></span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-panel">
+          <div class="panel-top"><span class="roundel">MJ</span><div><small>PROFIL PROFESSIONNEL</small><strong>Technologies & Industrie</strong></div><span class="green-dot"></span></div>
+          <div class="panel-grid"><span>01<span class="grid-label">INFORMATIQUE</span></span><span>02<span class="grid-label">RÉSEAUX</span></span><span>03<span class="grid-label">AUTOMATISME</span></span><span>04<span class="grid-label">INDUSTRIE</span></span></div>
+          <div class="panel-bottom"><span>MONTRÉAL · CANADA</span><span>PORTFOLIO / 2026</span></div>
+        </div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+      </div>
+    </section>
+    <div class="section-divider shell"></div>
+    <section class="section shell about-section" id="apropos" aria-labelledby="about-title">
+      <div class="section-head"><span class="eyebrow"><span class="slash">/</span> 01 · PRÉSENTATION</span><h2 id="about-title">À propos <span>de moi</span></h2></div>
+      <div class="about-grid"><p class="about-copy" id="about-text"></p><div class="about-highlights"><div><span class="highlight-number">2018<span>–</span>2023</span><span class="highlight-label">Expérience en industrie · AKWEL</span></div><div><span class="highlight-number">03</span><span class="highlight-label">Domaines complémentaires : IT, électronique, industrie</span></div><div><span class="highlight-number">MTL</span><span class="highlight-label">Basé à Montréal, Québec</span></div></div></div>
+    </section>
+    <section class="section section-tint" id="competences" aria-labelledby="skills-title"><div class="shell"><div class="section-head"><span class="eyebrow"><span class="slash">/</span> 02 · EXPERTISE</span><h2 id="skills-title">Mes <span>compétences</span></h2><p>Une approche pluridisciplinaire, du diagnostic informatique aux environnements industriels.</p></div><div class="skills-grid" id="skills-grid"></div></div></section>
+    <section class="section shell" id="parcours" aria-labelledby="career-title"><div class="section-head"><span class="eyebrow"><span class="slash">/</span> 03 · EXPÉRIENCE & FORMATION</span><h2 id="career-title">Mon <span>parcours</span></h2></div><div class="career-columns"><div><h3 class="column-heading"><span class="column-icon">↗</span> Expérience professionnelle</h3><div id="experience-list" class="timeline"></div></div><div><h3 class="column-heading"><span class="column-icon">✧</span> Formation académique</h3><div id="education-list" class="timeline"></div></div></div></section>
+    <section class="section section-tint" id="projets" aria-labelledby="projects-title"><div class="shell"><div class="section-head"><span class="eyebrow"><span class="slash">/</span> 04 · RÉALISATIONS</span><h2 id="projects-title">Projets <span>techniques</span></h2><p>Une sélection de travaux de formation et de réalisations en soutien informatique.</p></div><div class="projects-grid" id="projects-grid"></div></div></section>
+    <section class="section shell" id="rapports" aria-labelledby="reports-title"><div class="section-head"><span class="eyebrow"><span class="slash">/</span> 05 · DOCUMENTATION</span><h2 id="reports-title">Rapports <span>académiques</span></h2><p>Découvrez mes projets de master et de fin d’études, ainsi que leurs rapports et présentations.</p></div><div class="reports-grid" id="reports-grid"></div></section>
+    <section class="contact-area" id="contact" aria-labelledby="contact-title"><div class="shell contact-layout"><div><span class="eyebrow"><span class="slash">/</span> 06 · CONTACT</span><h2 id="contact-title">Construisons la <em>suite.</em></h2><p>Pour une opportunité professionnelle, une collaboration technique ou toute question concernant mon parcours, écrivez-moi directement.</p></div><div class="contact-box"><a id="email-link" href="mailto:mouadh24602184@gmail.com" class="contact-line"><span><small>COURRIEL</small><strong id="contact-email">mouadh24602184@gmail.com</strong></span><span class="arrow">↗</span></a><a id="phone-link" href="tel:2635668722" class="contact-line"><span><small>TÉLÉPHONE</small><strong id="contact-phone">263-566-8722</strong></span><span class="arrow">↗</span></a><a id="linkedin-link" href="https://ca.linkedin.com/in/jemai-mouadh" target="_blank" rel="noopener noreferrer" class="contact-line"><span><small>RÉSEAU PROFESSIONNEL</small><strong>LinkedIn / Mouadh Jemai</strong></span><span class="arrow">↗</span></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><a class="identity" href="#haut"><span class="identity-mark">MJ<span>.</span></span><span class="identity-name">MOUADH <strong>JEMAI</strong></span></a><span>© <span id="year">2026</span> Mouadh Jemai. Tous droits réservés.</span><a href="#haut">Retour en haut ↑</a></div></footer>
+</body>
+</html>
