@@ -10,7 +10,7 @@ window.PORTFOLIO_DATA = {
   "phone": "263-566-8722",
   "email": "mouadh24602184@gmail.com",
   "linkedin": "https://ca.linkedin.com/in/jemai-mouadh",
-  "cv": "documents/CV_Mouadh_Jemai.pdf",
+  "cv": "CV_Mouadh_Jemai.pdf",
   "skillGroups": [
     {
       "title": "Assistance & systèmes",
@@ -114,19 +114,19 @@ window.PORTFOLIO_DATA = {
       "eyebrow": "Master professionnel · 2020–2021",
       "title": "Automatisation d’un poste d’étanchéité selon l’industrie 4.0",
       "description": "Mémoire de master professionnel réalisé chez AKWEL (Mateur) : analyse de l’existant, automatisation, communication Ethernet entre équipements, programmation, simulation et amélioration d’un poste d’étanchéité.",
-      "image": "assets/vignette-master.png",
+      "image": "vignette-master.png",
       "files": [
         {
           "label": "Lire le rapport (PDF)",
-          "href": "documents/Master_Industrie_4_0.pdf"
+          "href": "Master_Industrie_4_0.pdf"
         },
         {
           "label": "Voir la présentation (PDF)",
-          "href": "documents/Presentation_Master.pdf"
+          "href": "Presentation_Master.pdf"
         },
         {
           "label": "Télécharger la présentation (PPTX)",
-          "href": "documents/Presentation_Master.pptx"
+          "href": "Presentation_Master.pptx"
         }
       ]
     },
@@ -135,11 +135,11 @@ window.PORTFOLIO_DATA = {
       "eyebrow": "Projet de fin d’études · 2018",
       "title": "Étude et conception d’un système de vérification contenu-contenant",
       "description": "Projet industriel chez MGI Coutier à Mateur : lecteur de codes-barres, interface de communication avec automate et contrôle des références afin de réduire les erreurs d’identification en production.",
-      "image": "assets/vignette-pfe.png",
+      "image": "vignette-pfe.png",
       "files": [
         {
           "label": "Lire le rapport (PDF)",
-          "href": "documents/PFE_Systeme_Verification.pdf"
+          "href": "PFE_Systeme_Verification.pdf"
         }
       ]
     }
